@@ -38,6 +38,8 @@ html {
 }
 
 .container_intro h3 {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 2px;
     position: absolute;
     top: 30%;
     left: 10%;
@@ -73,7 +75,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .container_services img {
@@ -121,6 +123,7 @@ html {
 }
 
 .services_h3_1 {
+    font-family: 'Righteous', cursive;
     position: absolute;
     top: 15%;
     left: 6%;
@@ -136,6 +139,7 @@ html {
 }
 
 .services_h3_2 {
+    font-family: 'Righteous', cursive;
     position: absolute;
     top: 55%;
     left: 6%;
@@ -162,12 +166,59 @@ html {
     left: 13%;
 }
 
+/*
 .products {
+    position: relative;
     width: 100%;
     height: 100vh;
-    background: url('img/namphuong-van-20566-unsplash.jpg');
+    background: url('img/brina-blum-351037-unsplash.jpg');
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.products img {
+    opacity: 0.3;
+    transition: 1s ease-in;
+}
+
+.products img:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 100px#121212;
+}
+
+.preset_1 {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    border-radius: 3.5px;
+}
+
+.preset_2 {
+    position: absolute;
+    top: 30%;
+    left: 37.5%;
+    border-radius: 3.5px;
+}
+
+.preset_3 {
+    position: absolute;
+    top: 30%;
+    left: 69%;
+    border-radius: 3.5px;
+}
+
+.products_h3 {
+    font-family: 'Righteous', cursive;
+    padding-top: 2%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.products_p {
+    padding-top: 1%;
+    font-size: 22px;
+    text-align: center;
+}
+*/
